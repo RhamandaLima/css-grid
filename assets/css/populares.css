@@ -54,3 +54,23 @@
     margin: 1rem 0;
     text-align: justify;
 }
+
+.populares__titulo {
+    font-weight: 500;
+}
+
+.populares__icone {
+    margin-right: .25rem;
+}
+
+.populares__cabecalho {
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.populares__botao {
+    background: transparent;
+    border: none;
+    color: #333333;
+}
