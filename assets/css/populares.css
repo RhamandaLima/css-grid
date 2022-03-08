@@ -6,8 +6,8 @@
     background: #fdfdfd;
     display: grid;
     grid-template-areas: 
-    "card-imagem"
-    "card-corpo";
+        "card-imagem"
+        "card-corpo";
     grid-template-columns: 100%;
 }
 
@@ -18,6 +18,12 @@
 }
 
 .populares__card___corpo {
+    display: grid;
     grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: 50px auto;
     padding: .75rem;
 }
