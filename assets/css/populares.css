@@ -1,5 +1,5 @@
 .populares {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 .populares__conteudo {
@@ -19,6 +19,10 @@
     grid-template-rows: 173px auto;
     margin-right: 1rem;
     width: calc(20% - 1rem);
+}
+
+.populares__card:last-child {
+    margin-right: 0;
 }
 
 .populares__card___imagem {
