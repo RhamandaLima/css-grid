@@ -16,6 +16,8 @@
         "card-imagem"
         "card-corpo";
     grid-template-columns: 100%;
+    margin-right: 1rem;
+    width: calc(20% - 1rem);
 }
 
 .populares__card___imagem {
